@@ -1,0 +1,21 @@
+# Git'e girmeyecek dosyalar (Hafta 1).
+# .env gizli anahtarları içerir; asla commit edilmez.
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Eğitmen notları katılımcılarla paylaşılmaz; sadece eğitmenin bilgisayarında durur
+haftalar/*/egitmen_notu.md
+
+# Üretilen çıktılar (eval/temel_cizgi/ bilerek git'e girer)
+eval/sonuclar/
+logs/
+data/indeks/
+*.faiss
+*.pkl
+
+# Claude Code proje talimatları (yerel kalır, GitHub'a gitmez)
+CLAUDE.md
